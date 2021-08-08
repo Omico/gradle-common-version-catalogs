@@ -5,5 +5,7 @@ accompanist = "0.16.0"
 flowLayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }
 insets = { module = "com.google.accompanist:accompanist-insets", version.ref = "accompanist" }
 insetsUi = { module = "com.google.accompanist:accompanist-insets-ui", version.ref = "accompanist" }
+pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist" }
+pagerIndicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanist" }
 swipeRefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanist" }
 systemUiController = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist" }

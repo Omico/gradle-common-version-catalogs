@@ -1,0 +1,9 @@
+[versions]
+accompanist = "0.16.0"
+
+[libraries]
+flowLayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }
+insets = { module = "com.google.accompanist:accompanist-insets", version.ref = "accompanist" }
+insetsUi = { module = "com.google.accompanist:accompanist-insets-ui", version.ref = "accompanist" }
+swipeRefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanist" }
+systemUiController = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist" }

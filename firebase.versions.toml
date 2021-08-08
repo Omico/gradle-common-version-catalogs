@@ -1,0 +1,7 @@
+[versions]
+firebase = "28.3.1"
+
+[libraries]
+bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase" }
+commonKtx = { module = "com.google.firebase:firebase-common-ktx" }
+crashlyticsKtx = { module = "com.google.firebase:firebase-crashlytics-ktx" }

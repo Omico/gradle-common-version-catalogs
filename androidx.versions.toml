@@ -9,7 +9,8 @@ datastore = "1.0.0"
 lifecycle-compose = "1.0.0-alpha07"
 lifecycle-core = "2.4.0-alpha03"
 navigation = "2.4.0-alpha06"
-paging = "1.0.0-alpha12"
+paging-core = "3.1.0-alpha03"
+paging-compose = "1.0.0-alpha12"
 room = "2.4.0-alpha04"
 work = "2.7.0-alpha05"
 
@@ -32,9 +33,11 @@ datastore-datastorePreferences = { module = "androidx.datastore:datastore-prefer
 lifecycle-commonJava8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycle-core" }
 lifecycle-livedataKtx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-core" }
 lifecycle-viewmodelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle-compose" }
+lifecycle-viewmodelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-core" }
 navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
 navigation-runtimeKtx = { module = "androidx.navigation:navigation-runtime-ktx", version.ref = "navigation" }
-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "paging" }
+paging-compose = { module = "androidx.paging:paging-compose", version.ref = "paging-compose" }
+paging-runtime = { module = "androidx.paging:paging-runtime", version.ref = "paging-core" }
 room-roomCompiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 room-roomKtx = { module = "androidx.room:room-ktx", version.ref = "room" }
 work-runtimeKtx = { module = "androidx.work:work-runtime-ktx", version.ref = "work" }

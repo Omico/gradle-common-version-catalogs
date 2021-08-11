@@ -1,0 +1,8 @@
+[versions]
+retrofit2-converter-kotlinx-serialization = "0.8.0"
+retrofit2-core = "2.9.0"
+
+[libraries]
+converter-kotlinxSerialization = { module = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter", version.ref = "retrofit2-converter-kotlinx-serialization" }
+converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "retrofit2-core" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2-core" }

@@ -33,6 +33,7 @@ core-coreKtx = { module = "androidx.core:core-ktx", version.ref = "core" }
 datastore-datastorePreferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
 lifecycle-commonJava8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycle-core" }
 lifecycle-livedataKtx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-core" }
+lifecycle-runtimeKtx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle-core" }
 lifecycle-viewmodelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle-compose" }
 lifecycle-viewmodelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-core" }
 navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }

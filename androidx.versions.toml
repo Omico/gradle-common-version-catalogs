@@ -1,14 +1,13 @@
 [versions]
-activity = "1.4.0-alpha01"
+activity = "1.4.0-alpha02"
 annotation = "1.3.0-alpha01"
 appcompat = "1.4.0-alpha03"
-browser = "1.3.0"
-compose = "1.1.0-alpha03"
-core = "1.7.0-alpha02"
+browser = "1.4.0-alpha01"
+compose = "1.1.0-alpha04"
+core = "1.7.0-beta01"
 datastore = "1.0.0"
-lifecycle-compose = "1.0.0-alpha07"
-lifecycle-core = "2.4.0-alpha03"
-navigation = "2.4.0-alpha08"
+lifecycle = "2.4.0-beta01"
+navigation = "2.4.0-alpha09"
 paging-core = "3.1.0-alpha03"
 paging-compose = "1.0.0-alpha12"
 room = "2.4.0-alpha04"
@@ -32,11 +31,11 @@ compose-uiToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview", 
 compose-uiUtil = { module = "androidx.compose.ui:ui-util", version.ref = "compose" }
 core-coreKtx = { module = "androidx.core:core-ktx", version.ref = "core" }
 datastore-datastorePreferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
-lifecycle-commonJava8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycle-core" }
-lifecycle-livedataKtx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-core" }
-lifecycle-runtimeKtx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle-core" }
-lifecycle-viewmodelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle-compose" }
-lifecycle-viewmodelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-core" }
+lifecycle-commonJava8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycle" }
+lifecycle-livedataKtx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
+lifecycle-runtimeKtx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+lifecycle-viewmodelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+lifecycle-viewmodelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
 navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
 navigation-runtimeKtx = { module = "androidx.navigation:navigation-runtime-ktx", version.ref = "navigation" }
 paging-compose = { module = "androidx.paging:paging-compose", version.ref = "paging-compose" }

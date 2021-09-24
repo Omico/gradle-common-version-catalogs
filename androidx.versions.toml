@@ -30,6 +30,8 @@ compose-uiTooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "
 compose-uiToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
 compose-uiUtil = { module = "androidx.compose.ui:ui-util", version.ref = "compose" }
 core-coreKtx = { module = "androidx.core:core-ktx", version.ref = "core" }
+datastore-datastore = { module = "androidx.datastore:datastore", version.ref = "datastore" }
+datastore-datastoreCore = { module = "androidx.datastore:datastore-core", version.ref = "datastore" }
 datastore-datastorePreferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
 lifecycle-commonJava8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycle" }
 lifecycle-livedataKtx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }

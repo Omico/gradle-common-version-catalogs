@@ -1,0 +1,5 @@
+[versions]
+protobuf = "3.18.0"
+
+[libraries]
+protobufKotlin = { module = "com.google.protobuf:protobuf-kotlin", version.ref = "protobuf" }

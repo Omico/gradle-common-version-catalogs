@@ -1,0 +1,7 @@
+[versions]
+cloudflareApi = "1.0.0-SNAPSHOT"
+cryonics = "1.0.0-SNAPSHOT"
+
+[libraries]
+cloudflareApi-dns = { module = "me.omico.cloudflare.api:cloudflare-dns", version.ref = "cloudflareApi" }
+cryonics-cryonics = { module = "me.omico.cryonics:cryonics", version.ref = "cryonics" }

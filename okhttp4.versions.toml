@@ -1,5 +1,5 @@
 [versions]
-okhttp4 = "4.9.1"
+okhttp4 = "4.9.2"
 
 [libraries]
 interceptor-logging = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp4" }

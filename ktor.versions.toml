@@ -1,0 +1,7 @@
+[versions]
+ktor = "1.6.4"
+
+[libraries]
+client-websockets = { module = "io.ktor:ktor-client-websockets", version.ref = "ktor" }
+server-netty = { module = "io.ktor:ktor-server-netty", version.ref = "ktor" }
+websockets = { module = "io.ktor:ktor-websockets", version.ref = "ktor" }

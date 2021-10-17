@@ -2,6 +2,7 @@
 firebase = "28.4.1"
 
 [libraries]
+analyticsKtx = { module = "com.google.firebase:firebase-analytics-ktx" }
 bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase" }
 commonKtx = { module = "com.google.firebase:firebase-common-ktx" }
 crashlyticsKtx = { module = "com.google.firebase:firebase-crashlytics-ktx" }

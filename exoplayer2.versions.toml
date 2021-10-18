@@ -1,0 +1,7 @@
+[versions]
+exoplayer = "2.15.1"
+
+[libraries]
+core = { module = "com.google.android.exoplayer:exoplayer-core", version.ref = "exoplayer" }
+dash = { module = "com.google.android.exoplayer:exoplayer-dash", version.ref = "exoplayer" }
+ui = { module = "com.google.android.exoplayer:exoplayer-ui", version.ref = "exoplayer" }

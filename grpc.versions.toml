@@ -1,0 +1,10 @@
+[versions]
+grpc = "1.41.0"
+grpc-kotlin = "1.2.0"
+
+[libraries]
+kotlinStub = { module = "io.grpc:grpc-kotlin-stub", version.ref = "grpc-kotlin" }
+netty = { module = "io.grpc:grpc-netty", version.ref = "grpc" }
+protobuf = { module = "io.grpc:grpc-protobuf", version.ref = "grpc" }
+protobufLite = { module = "io.grpc:grpc-protobuf-lite", version.ref = "grpc" }
+stub = { module = "io.grpc:grpc-stub", version.ref = "grpc" }

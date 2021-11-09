@@ -1,10 +1,13 @@
 [versions]
-grpc = "1.41.0"
+grpc = "1.42.0"
 grpc-kotlin = "1.2.0"
 
 [libraries]
+android = { module = "io.grpc:grpc-android", version.ref = "grpc" }
+core = { module = "io.grpc:grpc-core", version.ref = "grpc" }
 kotlinStub = { module = "io.grpc:grpc-kotlin-stub", version.ref = "grpc-kotlin" }
 netty = { module = "io.grpc:grpc-netty", version.ref = "grpc" }
+okhttp = { module = "io.grpc:grpc-okhttp", version.ref = "grpc" }
 protobuf = { module = "io.grpc:grpc-protobuf", version.ref = "grpc" }
 protobufLite = { module = "io.grpc:grpc-protobuf-lite", version.ref = "grpc" }
 stub = { module = "io.grpc:grpc-stub", version.ref = "grpc" }

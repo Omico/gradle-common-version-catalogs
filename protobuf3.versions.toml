@@ -1,6 +1,8 @@
 [versions]
-protobuf = "3.19.0"
+protobuf = "3.19.1"
 
 [libraries]
+protobufJava = { module = "com.google.protobuf:protobuf-java", version.ref = "protobuf" }
+protobufJavaLite = { module = "com.google.protobuf:protobuf-javalite", version.ref = "protobuf" }
 protobufKotlin = { module = "com.google.protobuf:protobuf-kotlin", version.ref = "protobuf" }
 protobufKotlinLite = { module = "com.google.protobuf:protobuf-kotlin-lite", version.ref = "protobuf" }

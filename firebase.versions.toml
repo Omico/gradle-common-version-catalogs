@@ -1,5 +1,5 @@
 [versions]
-firebase = "28.4.2"
+firebase = "29.0.0"
 
 [libraries]
 analyticsKtx = { module = "com.google.firebase:firebase-analytics-ktx" }

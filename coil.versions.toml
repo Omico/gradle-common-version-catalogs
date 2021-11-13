@@ -1,5 +1,5 @@
 [versions]
-coil = "2.0.0-alpha01"
+coil = "2.0.0-alpha03"
 
 [libraries]
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }

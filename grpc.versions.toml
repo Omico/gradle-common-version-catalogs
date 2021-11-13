@@ -5,6 +5,7 @@ grpc-kotlin = "1.2.0"
 [libraries]
 android = { module = "io.grpc:grpc-android", version.ref = "grpc" }
 core = { module = "io.grpc:grpc-core", version.ref = "grpc" }
+cronet = { module = "io.grpc:grpc-cronet", version.ref = "grpc" }
 kotlinStub = { module = "io.grpc:grpc-kotlin-stub", version.ref = "grpc-kotlin" }
 netty = { module = "io.grpc:grpc-netty", version.ref = "grpc" }
 okhttp = { module = "io.grpc:grpc-okhttp", version.ref = "grpc" }

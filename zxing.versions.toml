@@ -1,0 +1,8 @@
+[versions]
+zxing = "3.4.1"
+
+[libraries]
+androidCore = { module = "com.google.zxing:android-core", version.ref = "zxing" }
+androidIntegration = { module = "com.google.zxing:android-integration", version.ref = "zxing" }
+core = { module = "com.google.zxing:core", version.ref = "zxing" }
+javaSE = { module = "com.google.zxing:javase", version.ref = "zxing" }

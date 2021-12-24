@@ -1,5 +1,5 @@
 [versions]
-accompanist = "0.21.4-beta"
+accompanist = "0.22.0-rc"
 
 [libraries]
 flowLayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }
@@ -9,3 +9,4 @@ pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "ac
 pagerIndicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanist" }
 swipeRefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanist" }
 systemUiController = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist" }
+permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }

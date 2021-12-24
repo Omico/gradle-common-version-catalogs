@@ -1,0 +1,5 @@
+[versions]
+mlkit = "17.0.1"
+
+[libraries]
+barcodeScanning = { module = "com.google.mlkit:barcode-scanning", version.ref = "mlkit" }

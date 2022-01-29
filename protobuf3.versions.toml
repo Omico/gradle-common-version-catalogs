@@ -1,5 +1,5 @@
 [versions]
-protobuf = "3.19.3"
+protobuf = "3.19.4"
 
 [libraries]
 protobufJava = { module = "com.google.protobuf:protobuf-java", version.ref = "protobuf" }

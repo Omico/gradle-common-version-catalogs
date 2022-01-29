@@ -1,5 +1,5 @@
 [versions]
-material = "1.6.0-alpha01"
+material = "1.6.0-alpha02"
 
 [libraries]
 material = { module = "com.google.android.material:material", version.ref = "material" }

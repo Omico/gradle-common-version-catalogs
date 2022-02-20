@@ -1,5 +1,5 @@
 [versions]
-accompanist = "0.24.1-alpha"
+accompanist = "0.24.2-alpha"
 
 [libraries]
 flowLayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }

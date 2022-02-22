@@ -1,0 +1,5 @@
+[versions]
+leakcanary = "2.8.1"
+
+[libraries]
+leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanary" }

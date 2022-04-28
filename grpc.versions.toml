@@ -1,5 +1,5 @@
 [versions]
-grpc = "1.44.1"
+grpc = "1.46.0"
 grpc-kotlin = "1.2.1"
 
 [libraries]
